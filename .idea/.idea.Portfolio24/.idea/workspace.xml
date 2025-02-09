@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3d1db93-9853-4402-8896-7a3c986ad824" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/GPUInstance/InstancedIndirectRenderer_FishGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GPUInstance/InstancedIndirectRenderer_FishGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Terrain 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Terrain 2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TerrainSampleAssets/Prefabs/Trees/Conifer/Conifer_Bald.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TerrainSampleAssets/Prefabs/Trees/Conifer/Conifer_Bald.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TerrainSampleAssets/Prefabs/Trees/Pines/Pine_B/Pine_B_Bald.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TerrainSampleAssets/Prefabs/Trees/Pines/Pine_B/Pine_B_Bald.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/LV_02_Fish.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/LV_02_Fish.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/PP_02_Fish.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/PP_02_Fish.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/PP_02_Fish_UnderWater.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/PP_02_Fish_UnderWater.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/HDRI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/HDRI/blue_grotto_8k.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/HDRI/blue_grotto_8k.hdr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/HDRI/blue_grotto_8k_.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/HDRI/blue_grotto_8k_.hdr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/Maya.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/Maya/trout.ma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/Maya/trout.ma.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Redband.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Redband.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Redband_reduce.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Redband_reduce.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_AO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_AO.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_Color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_metalness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_metalness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_rgh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_Young_rgh.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_rgh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/RainbowTrout_rgh.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/T_RainbowTroutYoung_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/T_RainbowTroutYoung_M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/T_RainbowTrout_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/T_RainbowTrout_M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/rainbow-trout-redband.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_02_Fish/Source/Trout/rainbow-trout-redband.zip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/AdjustMeshBounds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/AdjustMeshBounds.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/CustomRotate.hlsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/CustomRotate.hlsl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/M_YellowSnapper.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/M_YellowSnapper.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/M_YellowSnapper_School.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/M_YellowSnapper_School.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/M_YellowSnapper_School_Instancing 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/M_YellowSnapper_School_Instancing 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/M_YellowSnapper_School_Instancing.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/M_YellowSnapper_School_Instancing.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/Bait.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/Bait.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/M_Orientaion.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/M_Orientaion.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/M_Orientation_Blend.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/M_Orientation_Blend.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/OrientationDemo.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/OrientationDemo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/OrientationDemo_AnimatedFish.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/OrientationDemo_AnimatedFish.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/OrientationDemo_FishGroup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/OrientationDemo_FishGroup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/OrientationDemo_Weight.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/OrientationDemo_Weight.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/PositionBinder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/PositionBinder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/SHSG_FishOrientatation.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/SHSG_FishOrientatation.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/SHSG_FishOrientatation_Group.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/SHSG_FishOrientatation_Group.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/Sh_Orientation.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/Sh_Orientation.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/Sh_Orientation_Blend.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Orientation/Sh_Orientation_Blend.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_Emissive.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_Emissive.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_FishGroupAnimation.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_FishGroupAnimation.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_FishGroupAnimation_Instancing.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_FishGroupAnimation_Instancing.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_FishGroupTurnAnimation.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_FishGroupTurnAnimation.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_FishGroupTurnAnimation_Instancing.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_FishGroupTurnAnimation_Instancing.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_GeneralLit.shadersubgraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SHSG_GeneralLit.shadersubgraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SM_YellowSnapper.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SM_YellowSnapper.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SM_YellowSnapper_School15.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SM_YellowSnapper_School15.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SM_YellowSnapper_School30.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/SM_YellowSnapper_School30.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Sh_AnimatedScoolOfFish_Instancing.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Sh_AnimatedScoolOfFish_Instancing.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Sh_MasterShader_AnimatedFish.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Sh_MasterShader_AnimatedFish.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Sh_MasterShader_AnimatedScoolOfFish.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/Sh_MasterShader_AnimatedScoolOfFish.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/T_YellowSnapper_D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/T_YellowSnapper_D.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/T_YellowSnapper_N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/T_YellowSnapper_N.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/testBillboard.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developer/Pei/Fish/testBillboard.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/M_Detail_Pebble_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/M_Detail_Pebble_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/SM_Detail_Pebble_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/SM_Detail_Pebble_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/T_Detail_Pebble_01_D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/T_Detail_Pebble_01_D.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/T_Detail_Pebble_01_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/T_Detail_Pebble_01_M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/T_Detail_Pebble_01_N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/T_Detail_Pebble_01_N.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/wffnefhs_2K_Roughness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Pebbles/wffnefhs_2K_Roughness.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_01_River.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_01_River.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_02_River.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_02_River.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_03_River.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Rock_03_River.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Wall_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/M_Wall_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/P_Rock_01_River.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/P_Rock_01_River.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/P_Rock_02_River.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/P_Rock_02_River.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/P_Rock_03_River.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/P_Rock_03_River.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/SM_Rock_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/SM_Rock_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/SM_Rock_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/SM_Rock_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/SM_Rock_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/SM_Rock_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/SM_Wall_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/SM_Wall_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_01_D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_01_D.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_01_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_01_M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_01_N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_01_N.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_02_D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_02_D.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_02_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_02_M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_02_N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_02_N.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_03_D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_03_D.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_03_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_03_M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_03_N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Rock_03_N.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Wall_01_D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Wall_01_D.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Wall_01_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Wall_01_M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Wall_01_N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/T_Wall_01_N.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/ujyjbehqx_4K_Roughness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Rock/ujyjbehqx_4K_Roughness.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/BeachPebble_01.terrainlayer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/BeachPebble_01.terrainlayer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/T_BeachPebble_D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/T_BeachPebble_D.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/T_BeachPebble_D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/T_BeachPebble_D.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/T_BeachPebble_M.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/T_BeachPebble_M.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/T_BeachPebble_N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/Surface_BeachPebble/T_BeachPebble_N.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/_Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/_Materials/AlphaZero.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/_Materials/AlphaZero.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/_Materials/SH_TerrainDetail_RandomColor.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_SharedAsset/_Materials/SH_TerrainDetail_RandomColor.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPUInstance/InstancingID.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPUInstance/InstancingID.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OutdoorsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OutdoorsScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_SimpleBeizer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_SimpleBeizer/P_SimpleBezierControl.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_SimpleBeizer/P_SimpleBezierControl.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_SimpleBeizer/VSG_SimpleBezierControl.vfxoperator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_SimpleBeizer/VSG_SimpleBezierControl.vfxoperator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_SimpleBeizer/V_SimpleBezierControl.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_SimpleBeizer/V_SimpleBezierControl.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/Get stripProgress Attribute.vfxoperator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/Get stripProgress Attribute.vfxoperator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/P_Trail.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/P_Trail.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/Sample 1D Linear.vfxoperator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/Sample 1D Linear.vfxoperator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/Sample Multiple Position Map_Catmull.vfxoperator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/Sample Multiple Position Map_Catmull.vfxoperator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/V_Spline_backup.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/DaYuan_Trails/V_Spline_backup.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GirdPulse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GirdPulse/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GirdPulse/V_NerveTree_Interact_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GirdPulse/V_NerveTree_Interact_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GirdPulse/V_NerveTree_Interact_02.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GirdPulse/V_NerveTree_Interact_02.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GridWave.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GridWave/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GridWave/V_Wave_V3.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GridWave/V_Wave_V3.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GridWave/V_Wave_v3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_GridWave/V_Wave_v3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/AC_TutorialPromptBar.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/AC_TutorialPromptBar.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_0.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_0.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_10.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_10.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_100.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_100.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_20.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_20.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_30.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_30.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_40.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_40.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_50.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_50.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_60.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_60.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_70.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_70.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_80.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_80.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_90.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/A_TutorialPromptBar_90.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/M_TutorialPromptBar.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/M_TutorialPromptBar.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/P_TutorialPromptBar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/P_TutorialPromptBar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/Sh_EnergyBar.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_LiquidUI/Sh_EnergyBar.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_NerveTree.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_NerveTree/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_NerveTree/V_NerveTree_DistanceColorSwitch_V5 (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_NerveTree/V_NerveTree_DistanceColorSwitch_V5 (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_NerveTree/V_NerveTree_DistanceColorSwitch_V5.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_NerveTree/V_NerveTree_DistanceColorSwitch_V5.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_NerveTree/Vortex.vfxblock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_NerveTree/Vortex.vfxblock.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_PromptBubble.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_PromptBubble/P_RoundRibbon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_PromptBubble/P_RoundRibbon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_PromptBubble/V_RoundRibbon.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_PromptBubble/V_RoundRibbon.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier/P_Web_Curve.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier/P_Web_Curve.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier/V_Web_BezierCurve.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier/V_Web_BezierCurve.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier_Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier_Texture/P_Web_Curve_Texture.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier_Texture/P_Web_Curve_Texture.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier_Texture/V_Web_BezierCurve_Far.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebBezier_Texture/V_Web_BezierCurve_Far.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebCircle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebCircle/P_Web_Circle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebCircle/P_Web_Circle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebCircle/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebCircle/V_Web_Circle.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Digi_WebCircle/V_Web_Circle.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX/P_KSTAudioVisualizerVFX.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX/P_KSTAudioVisualizerVFX.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX/V_PromptBubble_KST.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX/V_PromptBubble_KST.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX/V_RadiationFlash.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX/V_RadiationFlash.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX/_Thumbnail_KSTAudioVisualizerVFX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_AudioVisualizerVFX/_Thumbnail_KSTAudioVisualizerVFX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_InteractAndFlyToTaget.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_InteractAndFlyToTaget/V_InteractObject_Clock.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_InteractAndFlyToTaget/V_InteractObject_Clock.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_InteractAndFlyToTaget/V_InteractObject_Heart.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_InteractAndFlyToTaget/V_InteractObject_Heart.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_InteractAndFlyToTaget/_Thumbnail_InteractAndFlyToTarget.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_InteractAndFlyToTaget/_Thumbnail_InteractAndFlyToTarget.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/M_MagicOrb.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/M_MagicOrb.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/P_MagicOrb.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/P_MagicOrb.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/SH_MagicOrb.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/SH_MagicOrb.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/V_MagicOrb_Particles.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/V_MagicOrb_Particles.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/_Thumbnail_MagicOrb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_MagicOrb/_Thumbnail_MagicOrb.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/P_PaperFalling.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/P_PaperFalling.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/P_Paper_Burst.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/P_Paper_Burst.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/P_Paper_Swirl.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/P_Paper_Swirl.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/SM_VFXPaper.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/SM_VFXPaper.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/V_Paper_ACT1_Burst.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/V_Paper_ACT1_Burst.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/V_Paper_ACT1_Falling.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/V_Paper_ACT1_Falling.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/V_Paper_ACT1_Swirl.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/V_Paper_ACT1_Swirl.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/_Thumbnail_Paper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Paper/_Thumbnail_Paper.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/P_VFXPill_Drop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/P_VFXPill_Drop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/P_VFXPill_Swirl.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/P_VFXPill_Swirl.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/V_VFXPill_Drop.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/V_VFXPill_Drop.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/V_VFXPill_Swirl.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/V_VFXPill_Swirl.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/_Thumbnail_PillDrop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/_Thumbnail_PillDrop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/_Thumbnail_PillSwirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_Pill/_Thumbnail_PillSwirl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/A_MeshGlitch.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/A_MeshGlitch.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/M_TransitionMeshGlitch.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/M_TransitionMeshGlitch.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/P_MeshGlitchController.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/P_MeshGlitchController.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/SHSG_TextureGlitch.shadersubgraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/SHSG_TextureGlitch.shadersubgraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/SH_TransitionMeshGlitch.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/SH_TransitionMeshGlitch.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/_Thumbnail_RenderFeatureMeshGlitch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_RenderFeatureMeshGlitch/_Thumbnail_RenderFeatureMeshGlitch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SheetMusicFlow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SheetMusicFlow/P_SheetMusicFlow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SheetMusicFlow/P_SheetMusicFlow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SheetMusicFlow/V_SheetMusicFlow.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SheetMusicFlow/V_SheetMusicFlow.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SheetMusicFlow/_Thumbnail_SheetMusicFlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SheetMusicFlow/_Thumbnail_SheetMusicFlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/M_TVSnowNoise 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/M_TVSnowNoise 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/M_TVSnowNoise 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/M_TVSnowNoise 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/M_TVSnowNoise 4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/M_TVSnowNoise 4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/M_TVSnowNoise.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/M_TVSnowNoise.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/SH_TVSnowNoise.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_SnowNoise/SH_TVSnowNoise.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/M_TextImage_Sample.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/M_TextImage_Sample.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/Package/TextImage&amp;SnowNoise.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/Package/TextImage&amp;SnowNoise.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/SH_TextImageFade_MultiParagraph.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/SH_TextImageFade_MultiParagraph.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/SSG_DisplaceUV_YAxis.shadersubgraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/SSG_DisplaceUV_YAxis.shadersubgraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/SSG_TexImageRowMask_MultiParagraph.shadersubgraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/KST_TextFadeInEffect/SSG_TexImageRowMask_MultiParagraph.shadersubgraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/AC_Card.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/AC_Card.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Appear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Appear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_BeforeAppear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_BeforeAppear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_CloseGlow.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_CloseGlow.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Disappear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Disappear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Flip.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Flip.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Open.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Open.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Open_Release.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Animation/A_Card_Open_Release.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParBackGroundGlow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParBackGroundGlow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParSpark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParSpark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParSpark_02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParSpark_02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParSpark_03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParSpark_03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParTrail_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Decoration/M_ParTrail_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/M_Card_A01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/M_Card_A01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/P_Card.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/P_Card.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/SM_CardMesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/SM_CardMesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Sh_PiliCard.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Sh_PiliCard.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Sh_UnlitTransAddParticles.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Pili_Card/Sh_UnlitTransAddParticles.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Art.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Art/FloatingMagic.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Art/FloatingMagic.vfx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Art/Potion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Art/Potion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Art/URP_VFXGraphLitMesh.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Art/URP_VFXGraphLitMesh.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Package.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Models/Materials/mf_potion_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Models/Materials/mf_potion_01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Models/mf_potion_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Models/mf_potion_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01_ao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01_ao.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01_meta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01_meta.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01_nm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01_nm.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01_rgh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/Potion/Plugin/Fantasy Mini/Textures/mf_potion_01_rgh.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/M_StylizeOcean.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/M_StylizeOcean.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/M_StylizeOcean_Wave.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/M_StylizeOcean_Wave.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse/DefaultMaterial_Base_color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse/DefaultMaterial_Base_color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse/DistortionNoise6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse/DistortionNoise6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse/MS_Screen_DefaultMaterial_BaseMap_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse/MS_Screen_DefaultMaterial_BaseMap_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse/Noise95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/NotUse/Noise95.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/Ocean_AlphaClipLayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/Ocean_AlphaClipLayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/SH_StylizeOcean.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/SH_StylizeOcean.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/SH_StylizeOcean_Wave.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/SH_StylizeOcean_Wave.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/SM_Ocean.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/SM_Ocean.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/SM_Ocean_Layer.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/SM_Ocean_Layer.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/T_StylizeOceanColorNoise_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/T_StylizeOceanColorNoise_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/T_StylizeOceanUVNoise_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/T_StylizeOceanUVNoise_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/T_StylizeOceanUVNoise_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/SSW_StylizeOcean/T_StylizeOceanUVNoise_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/SHSG_Emissive.shadersubgraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/SHSG_Emissive.shadersubgraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/SHSG_GeneralLit.shadersubgraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/SHSG_GeneralLit.shadersubgraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/Sh_MasterShader_AnimatedFish.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/Sh_MasterShader_AnimatedFish.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/Sh_OceanSideView.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/Sh_OceanSideView.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/Sh_SpringWater.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_MoonAquarium/ArtObject/_Materials/Sh_SpringWater.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Cubemap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Cubemap/T_KSTMR_CubeMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Cubemap/T_KSTMR_CubeMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/LV_SortingScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/LV_SortingScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise53.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise61.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/Noise81.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/T_TransitionGlitch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Noise/T_TransitionGlitch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape/Flare9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape/Flare9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape/Impact10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape/Impact10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape/aura (45).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape/aura (45).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Shape/circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/Eye_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/Eye_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/Eye_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/Eye_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/FAITH_card_Back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/FAITH_card_Back.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/FAITH_card_MaskV4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/FAITH_card_MaskV4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/FAITH_card_art_A_001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/FAITH_card_art_A_001.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/LOGOTEST.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/LOGOTEST.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/PP_SortingScene.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/PP_SortingScene.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/Projectile10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/Projectile10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/RingGlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/RingGlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/SmokeTrail2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/SmokeTrail2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_03_Intro_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_03_Intro_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_03_Intro_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_03_Intro_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_CardBackgroundGlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_CardBackgroundGlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Dot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_DotSheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_DotSheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_FeelSnakeFood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_FeelSnakeFood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_GlowTrail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_GlowTrail.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_LightDot_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_LightDot_D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Line_A_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Line_A_.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptBubbleBackground_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptBubbleBackground_D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptBubble_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptBubble_D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptBubble_D_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptBubble_D_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptBubble_D_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptBubble_D_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptFadeIn_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_PromptFadeIn_D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Quad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Quad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_RibbonGlowing_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_RibbonGlowing_D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_SheetMusicFlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_SheetMusicFlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_Text.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_TextImage_Sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/T_TextImage_Sample.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/TrailElectric15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/TrailElectric15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/TrailElectric16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/TrailElectric16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/TrailHead1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/TrailHead1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/TrailLines4b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/TrailLines4b.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/aefb296b636a5d4e51498c9abb5734fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/aefb296b636a5d4e51498c9abb5734fe.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/particle (393).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/particle (393).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/path (274).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Portfolio24/_Source/Texture/path (274).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SkyandFogSettingsProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SkyandFogSettingsProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c5ed782439084ef1bc2ad85eec89e9fe175a00/0e/30736d77/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPUInstance/InstancedIndirectRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GPUInstance/InstancedIndirectRenderer_FishGroup.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lnOsDgjZNV9g1nP129xAnuVDPH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\User\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\UnityProject\Portfolio24 -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProject\Portfolio24" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\UnityProject\Portfolio24 -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProject\Portfolio24" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3d1db93-9853-4402-8896-7a3c986ad824" name="Changes" comment="" />
+      <created>1725812579095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725812579095</updated>
+      <workItem from="1725812580644" duration="347000" />
+      <workItem from="1725898959541" duration="150000" />
+      <workItem from="1725899118884" duration="648000" />
+      <workItem from="1726797758385" duration="665000" />
+      <workItem from="1732206474992" duration="2331000" />
+      <workItem from="1732355736984" duration="5052000" />
+      <workItem from="1732502397921" duration="661000" />
+      <workItem from="1732873804611" duration="3082000" />
+      <workItem from="1733630031799" duration="5865000" />
+      <workItem from="1737188991172" duration="4796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
